@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nathalia Melo | Links & Contato</title>
+  <meta name="description" content="Acesse os canais de atendimento, agendamento de sessões e redes de Nathalia Melo - Psicóloga Clínica.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <link rel="stylesheet" href="links.css">
+</head>
+<body>
+
+  <main class="bio-container">
+    <div class="bio-card">
+      
+      <!-- Cabeçalho do Perfil -->
+      <header class="profile-header">
+        <!-- FOTO DE PERFIL -->
+        <img src="assets/img/nathalia_2.jpg" alt="Foto de Nathalia Melo" class="profile-avatar">
+
+        <h1 class="profile-name">Nathalia Melo</h1>
+        <p class="profile-badge"><i class="fa-solid fa-certificate"></i> CRP 06/123456</p>
+        <p class="profile-bio">
+          Psicóloga Clínica &middot; Atendimento humanizado e acolhedor 100% online.
+        </p>
+      </header>
+
+      <!-- Lista de Links -->
+      <section class="links-list">
+        
+        <!-- Link de Destaque: WhatsApp -->
+        <a href="https://wa.me/5561999687760?text=Ol%C3%A1%20Nathalia!%20Vim%20pelo%20link%20da%20bio%20e%20gostaria%20de%20agendar%20uma%20sess%C3%A3o." target="_blank" class="bio-link bio-link-featured">
+          <div class="link-icon-box">
+            <i class="fa-brands fa-whatsapp"></i>
+          </div>
+          <div class="link-info">
+            <span class="link-title">Agendar Sessão de Psicoterapia</span>
+            <span class="link-subtitle">Fale diretamente comigo pelo WhatsApp</span>
+          </div>
+          <i class="fa-solid fa-arrow-right link-arrow"></i>
+        </a>
+
+        <!-- Link 2: Site Oficial -->
+        <a href="index.html" class="bio-link">
+          <div class="link-icon-box">
+            <i class="fa-solid fa-globe"></i>
+          </div>
+          <div class="link-info">
+            <span class="link-title">Acessar Site Oficial</span>
+            <span class="link-subtitle">Conheça minha trajetória e abordagem</span>
+          </div>
+          <i class="fa-solid fa-arrow-right link-arrow"></i>
+        </a>
+
+        <!-- Link 3: Como funciona o atendimento -->
+        <a href="index.html#como-funciona" class="bio-link">
+          <div class="link-icon-box">
+            <i class="fa-solid fa-calendar-check"></i>
+          </div>
+          <div class="link-info">
+            <span class="link-title">Como Funcionam as Sessões</span>
+            <span class="link-subtitle">Duração, formato online e acolhimento</span>
+          </div>
+          <i class="fa-solid fa-arrow-right link-arrow"></i>
+        </a>
+
+        <!-- Link 4: Dúvidas Frequentes & Reembolso -->
+        <a href="index.html#faq" class="bio-link">
+          <div class="link-icon-box">
+            <i class="fa-solid fa-circle-question"></i>
+          </div>
+          <div class="link-info">
+            <span class="link-title">Dúvidas Frequentes</span>
+            <span class="link-subtitle">Planos de saúde, reembolso e valores</span>
+          </div>
+          <i class="fa-solid fa-arrow-right link-arrow"></i>
+        </a>
+
+        <!-- Link 5: Atendimento 100% Online -->
+        <a href="index.html#faq" class="bio-link">
+          <div class="link-icon-box">
+            <i class="fa-solid fa-video"></i>
+          </div>
+          <div class="link-info">
+            <span class="link-title">Terapia 100% Online</span>
+            <span class="link-subtitle">Atendimento no Brasil e exterior</span>
+          </div>
+          <i class="fa-solid fa-arrow-right link-arrow"></i>
+        </a>
+
+        <!-- Link 6: Enviar E-mail -->
+        <a href="mailto:contato@nathaliamelo.com.br" class="bio-link">
+          <div class="link-icon-box">
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+          <div class="link-info">
+            <span class="link-title">Contato por E-mail</span>
+            <span class="link-subtitle">contato@nathaliamelo.com.br</span>
+          </div>
+          <i class="fa-solid fa-arrow-right link-arrow"></i>
+        </a>
+
+      </section>
+
+      <!-- Redes Sociais no rodapé -->
+      <footer class="bio-footer">
+        <div class="social-icons">
+          <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="https://wa.me/5561999687760" target="_blank" aria-label="WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+          <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+        </div>
+        <p class="bio-copyright">
+          &copy; <span id="current-year"></span> Nathalia Melo &middot; Psicóloga Clínica
+        </p>
+      </footer>
+
+    </div>
+  </main>
+
+  <script>
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
